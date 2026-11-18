@@ -1,0 +1,22 @@
+/* Mise en page propre au site (le reste vient de components.css). */
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+.site { background: var(--surface); color: var(--ink); font-family: var(--font-sans); }
+.site a:not([class]) { color: var(--gold-text); }
+.site a:not([class]):hover { color: var(--ink); }
+.site [id] { scroll-margin-top: 96px; }
+
+.split { display: flex; flex-wrap: wrap; align-items: center; gap: 48px 64px; }
+.split > * { min-width: 0; }
+.stack { display: flex; flex-direction: column; align-items: flex-start; gap: 16px; }
+.cards-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 32px; }
+.cards-info { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; }
+.cards-team { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 32px 20px; }
+.about-photo { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--radius-md); }
+.muted { margin: 0; color: var(--ink-muted); max-width: 680px; }
+
+.quote-aside {
+  display: flex; flex-direction: column; gap: 24px; padding: 32px; box-sizing: border-box;
+  background: var(--surface-raised); border: 1px solid var(--line); border-radius: var(--radius-md);
+}
+.quote-aside__help { display: flex; flex-direction: column; gap: 12px; padding-top: 24px; border-top: 1px solid var(--line); }
