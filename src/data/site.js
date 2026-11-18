@@ -1,11 +1,11 @@
 // Contenus partagés entre les pages. Les textes entre [crochets] sont à remplacer
 // par les vraies informations de l'agence avant la mise en ligne.
 
-export const HOME = '/';
-export const DEVIS = '/devis.html';
+export const HOME = './';
+export const DEVIS = './devis.html';
 
-export const LOGO = '/images/logo.svg';
-export const LOGO_FOOTER = '/images/logo-footer.svg';
+export const LOGO = 'images/logo.svg';
+export const LOGO_FOOTER = 'images/logo-footer.svg';
 
 export const PITCH = 'Chaque détail compte. Nous créons des expériences uniques, conçues pour sublimer chacun de vos moments.';
 

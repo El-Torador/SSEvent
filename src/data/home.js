@@ -1,5 +1,5 @@
 const photo = (n, width, height) => ({
-  src: `/images/photos/event-${n}.svg`,
+  src: `images/photos/event-${n}.svg`,
   width,
   height,
   alt: `[Décrivez la photo ${n} : la scène, les invités, le lieu]`,
@@ -7,9 +7,9 @@ const photo = (n, width, height) => ({
 });
 
 export const heroImages = [
-  { src: '/images/hero-1.svg', alt: '[Photo phare d’un événement SSEvent]' },
-  { src: '/images/hero-2.svg', alt: '[Gros plan : un détail d’accueil ou de décoration]' },
-  { src: '/images/hero-3.svg', alt: '[Ambiance : hôtesses et invités]' },
+  { src: 'images/hero-1.svg', alt: '[Photo phare d’un événement SSEvent]' },
+  { src: 'images/hero-2.svg', alt: '[Gros plan : un détail d’accueil ou de décoration]' },
+  { src: 'images/hero-3.svg', alt: '[Ambiance : hôtesses et invités]' },
 ];
 
 export const marquee = ['Accueil haut de gamme', 'Hôtes et hôtesses', 'Interprétariat premium', 'Service 360°', 'Uniformes élégants'];
@@ -63,7 +63,7 @@ export const addedValue = [
 // À remplacer par les vrais membres de l'équipe.
 export const team = Array.from({ length: 4 }, (_, i) => ({
   id: i,
-  photo: '/images/portrait.svg',
+  photo: 'images/portrait.svg',
   photoAlt: '[Portrait de Prénom Nom]',
   name: '[Prénom Nom]',
   role: '[Fonction]',

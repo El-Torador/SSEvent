@@ -35,7 +35,7 @@ function Home() {
         <Section id="a-propos" tone="raised">
           <div className="split">
             <div style={{ flex: '1 1 380px' }}>
-              <img className="about-photo" src="/images/about.svg" alt="[Photo de l’équipe ou de l’agence au travail]" />
+              <img className="about-photo" src="images/about.svg" alt="[Photo de l’équipe ou de l’agence au travail]" />
             </div>
             <div className="stack" style={{ flex: '1 1 440px' }}>
               <SectionHeading

@@ -3,7 +3,7 @@ import { cx } from './utils.js';
 import Button from './Button.jsx';
 import { Burger, Close } from './icons.jsx';
 
-export default function Header({ logoSrc, homeHref = '/', links = [], cta, className }) {
+export default function Header({ logoSrc, homeHref = './', links = [], cta, className }) {
   const [open, setOpen] = useState(false);
   return (
     <header className={cx('ss-header', open && 'is-open', className)}>
