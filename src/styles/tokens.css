@@ -1,0 +1,72 @@
+/* SSEvent — generated from tokens.json */
+:root, [data-theme="light"] {
+  --gold: #bc9920;
+  --gold-text: #806614;
+  --gold-tint: #f5eed8;
+  --ink: #231f20;
+  --ink-muted: #5e5759;
+  --surface: #ffffff;
+  --surface-raised: #faf7f0;
+  --line: #e6dfd0;
+  --line-strong: #8c8478;
+  --on-gold: #231f20;
+  --brand-black: #231f20;
+  --brand-paper: #ffffff;
+  --brand-paper-muted: #b8b0a6;
+  --line-on-black: #3a3536;
+  --scrim: rgba(35,31,32,0.72);
+  --danger: #b3261e;
+  --shadow-card: 0 8px 24px rgba(35,31,32,0.08);
+}
+[data-theme="dark"] {
+  --gold: #bc9920;
+  --gold-text: #bc9920;
+  --gold-tint: #3a3220;
+  --ink: #f6f2ea;
+  --ink-muted: #b8b0a6;
+  --surface: #1a1718;
+  --surface-raised: #231f20;
+  --line: #3a3536;
+  --line-strong: #b8b0a6;
+  --on-gold: #231f20;
+  --brand-black: #231f20;
+  --brand-paper: #ffffff;
+  --brand-paper-muted: #b8b0a6;
+  --line-on-black: #3a3536;
+  --scrim: rgba(35,31,32,0.72);
+  --danger: #f2b8b5;
+  --shadow-card: 0 8px 24px rgba(0,0,0,0.4);
+}
+:root {
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+  --radius-sm: 4px;
+  --radius-md: 12px;
+  --radius-pill: 999px;
+  --font-sans: Outfit, "Century Gothic", system-ui, sans-serif;
+  --font-script: Hurricane, "Segoe Script", cursive;
+}
+.display { font-family: var(--font-sans); font-size: 64px; line-height: 68px; font-weight: 600; letter-spacing: -0.02em; }
+.title-1 { font-family: var(--font-sans); font-size: 44px; line-height: 50px; font-weight: 600; letter-spacing: -0.01em; }
+.title-2 { font-family: var(--font-sans); font-size: 28px; line-height: 34px; font-weight: 600; }
+.title-3 { font-family: var(--font-sans); font-size: 20px; line-height: 28px; font-weight: 500; }
+.lead { font-family: var(--font-sans); font-size: 19px; line-height: 30px; font-weight: 300; }
+.body { font-family: var(--font-sans); font-size: 16px; line-height: 26px; font-weight: 400; }
+.body-sm { font-family: var(--font-sans); font-size: 14px; line-height: 22px; font-weight: 400; }
+.eyebrow { font-family: var(--font-sans); font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: 0.14em; }
+.button { font-family: var(--font-sans); font-size: 15px; line-height: 20px; font-weight: 600; letter-spacing: 0.02em; }
+.signature { font-family: var(--font-script); font-size: 44px; line-height: 52px; font-weight: 400; }
+.signature-sm { font-family: var(--font-script); font-size: 30px; line-height: 36px; font-weight: 400; }
+@font-face { font-family: "Outfit"; src: url("../assets/fonts/Outfit-300.woff2") format("woff2"); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: "Outfit"; src: url("../assets/fonts/Outfit-400.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Outfit"; src: url("../assets/fonts/Outfit-500.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Outfit"; src: url("../assets/fonts/Outfit-600.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "Outfit"; src: url("../assets/fonts/Outfit-700.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Hurricane"; src: url("../assets/fonts/Hurricane-400.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
